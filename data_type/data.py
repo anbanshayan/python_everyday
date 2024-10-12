@@ -21,3 +21,7 @@ print(type(prime_number))
 
 capital = {"UAE":"Abu Dhabi","Sri Lanka":"Colombo"}
 print(type(capital))
+
+currency = frozenset({'LKR','AUD','GBP','GBP'})
+print(type(currency))
+#Here, the frozenset ensures that the set remains unchanged after its creation.
