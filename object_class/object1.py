@@ -12,6 +12,8 @@ class Person:
         self.name = name
         self.age = age
 
+    
+    
 person1 = Person("Anbashayan",24)
 person2 = Person("AKugananthi",49)
 
