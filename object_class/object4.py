@@ -1,9 +1,10 @@
 class Person:
-    def __init__(self,name,age):
-        self.fname = fname
-        self.lname = lname
+    def __init__(self,fname,lname):
+        self.firstName = fname
+        self.lastName = lname
 
     def printName(self):
-        print(self.fname,self.lname)
+        print(self.firstName,self.lastName)
     
-x = person("Anban","Shayan")
+x = Person("Anban","Shayan")
+x.printName()
